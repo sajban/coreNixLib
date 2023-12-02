@@ -3,6 +3,6 @@
 
   outputs = { self }: {
     type = "pureNixLib";
-    core = import ./core.nix;
+    value = import ./core.nix;
   };
 }
